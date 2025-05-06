@@ -20,11 +20,8 @@ function App() {
   };
   return (
     <>
-      <Helmet>
-        <script type="application/lg+json">
-          {JSON.stringify(schemaMarkup)}
-        </script>
-      </Helmet>
+      <script type="application/lg+json">{JSON.stringify(schemaMarkup)}</script>
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
