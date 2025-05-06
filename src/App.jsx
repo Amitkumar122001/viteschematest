@@ -20,7 +20,10 @@ function App() {
   };
   return (
     <>
-      <script type="application/lg+json">{JSON.stringify(schemaMarkup)}</script>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+    />
 
       <div>
         <a href="https://vite.dev" target="_blank">
