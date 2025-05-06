@@ -22,47 +22,7 @@ function App() {
     <>
       <Helmet>
         <script type="application/lg+json">
-          {`{
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "About Us",
-              "url": "https://www.aaveg.com/about-us",
-              "description": "Learn more about our company, our mission, and our team.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Aaveg Shuttle",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.aaveg.com/assets/aaveg_logo-DSY_o52I.svg"
-                },
-                "url": "https://www.aaveg.com"
-              },
-              "mainEntity": {
-                "@type": "Organization",
-                "name": "Aaveg Shuttle",
-                "url": "https://www.aaveg.com",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.aaveg.com/assets/aaveg_logo-DSY_o52I.svg"
-                  },
-                "foundingDate": "2015-10-08",
-                "foundingLocation": "Gurugram, India",
-                "contactPoint": {
-                  "@type": "ContactPoint",
-                  "telephone": "+91-8877437743",
-                  "contactType": "Customer Service"
-                },
-                "sameAs": [
-                  "https://www.facebook.com/aavegshuttle",
-                  "https://www.instagram.com/aaveg.shuttle",
-                  "https://www.linkedin.com/company/7789872/",
-                  "https://x.com/aavegin",
-                  "https://www.youtube.com/channel/UCXbXk7-Cd2AVAY1Vs58h5Sg"
-                ]
-              }
-}
-              
-              `}
+          {JSON.stringify(schemaMarkup)}
         </script>
       </Helmet>
       <div>
