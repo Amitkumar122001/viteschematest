@@ -10,8 +10,8 @@ function App() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Your Company Name",
-    url: "https://www.example.com",
-    logo: "https://www.example.com/logo.png",
+    url: "https://viteschematest.vercel.app/",
+    logo: "https://viteschematest.vercel.app//logo.png",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+1-123-456-7890",
